@@ -18,6 +18,10 @@
   "author": {
     "name": "ZingChart"
   },
+  "license": {
+    "name": "ZingChart Branded License and Commercial",
+    "url": "https://www.zingchart.com/buy/"
+  },
   "npmName": "zingchart",
   "npmFileMap": [
     {
