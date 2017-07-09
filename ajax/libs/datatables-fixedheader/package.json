@@ -19,5 +19,17 @@
   "author": {
     "name": "SpryMedia Ltd",
     "url": "https://datatables.net"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/DataTables/Dist-DataTables-FixedHeader.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "js/**/*"
+        ]
+      }
+    ]
   }
 }
