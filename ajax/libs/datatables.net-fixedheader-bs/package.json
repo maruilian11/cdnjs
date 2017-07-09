@@ -1,0 +1,36 @@
+{
+  "name": "datatables.net-fixedheader-bs",
+  "version": "3.1.2",
+  "description": "FixedHeader for DataTables with styling for [Bootstrap](https://getbootstrap.com/)",
+  "filename": "css/fixedHeader.bootstrap.min.css",
+  "keywords": [
+    "fixed headers",
+    "sticky",
+    "DataTables",
+    "jQuery",
+    "table",
+    "Bootstrap"
+  ],
+  "homepage": "https://datatables.net/extensions/fixedheader",
+  "license": "MIT",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "https://datatables.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DataTables/Dist-DataTables-FixedHeader-Bootstrap.git"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/DataTables/Dist-DataTables-FixedHeader-Bootstrap.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "css/**/*"
+        ]
+      }
+    ]
+  }
+}
