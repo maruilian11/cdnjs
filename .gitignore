@@ -235,6 +235,7 @@ node_modules/
 /ajax/libs/angular-gridster/v.0.10.4
 /ajax/libs/numbered/0.0.4
 /ajax/libs/numbered/1.0.0
+/ajax/libs/datatables-fixedheader/RELEASE*/
 
 #ignore files that we don't need
 /ajax/libs/*/*/**/Gruntfile.js
