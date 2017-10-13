@@ -1,0 +1,31 @@
+{
+  "name": "kindeditor",
+  "version": "4.1.11",
+  "filename": "kindeditor-all-min.js",
+  "description": "WYSIWYG HTML editor",
+  "keywords": [
+    "WYSIWYG",
+    "editor",
+    "HTML"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kindsoft/kindeditor.git"
+  },
+  "author": "Longhao Luo",
+  "license": "LGPL-2.1",
+  "homepage": "http://kindeditor.org",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/kindsoft/kindeditor.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "kindeditor*",
+          "+(lang|themes|plugins)/**/!(prettify)*.+(js|css|gif|png)"
+        ]
+      }
+    ]
+  }
+}
